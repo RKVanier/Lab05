@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package order;
+
 
 import javafx.application.Application;
 import static javafx.application.Application.launch;
@@ -85,6 +85,7 @@ public class Order extends Application{
             cb.getSelectionModel().clearSelection();
             radioGroup.selectToggle(null);
         });
+        
         
         Scene scene = new Scene(root);
         stage.setScene(scene);

@@ -86,7 +86,6 @@ public class Order extends Application{
             radioGroup.selectToggle(null);
         });
         
-        
         Scene scene = new Scene(root);
         stage.setScene(scene);
         stage.setTitle("Order App");

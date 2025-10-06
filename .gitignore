@@ -32,3 +32,6 @@
 # Ignore OS files
 .DS_Store
 Thumbs.db
+/RestaurantMenu/nbproject/private/
+/RestaurantBill/nbproject/private/
+/RestaurantBill/build/

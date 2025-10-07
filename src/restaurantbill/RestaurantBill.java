@@ -1,3 +1,4 @@
+//https://github.com/RKVanier/Lab05/tree/task2
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
@@ -49,22 +50,22 @@ public class RestaurantBill extends Application{
         
         
         ComboBox<String> beverageBox = new ComboBox<>();
-        beverageBox.setPrefWidth(120);
+        beverageBox.setPrefWidth(150);
         beverageBox.getItems().addAll("Coffee", "Tea", "Soft Drink", "Water", "Milk", "Juice");
         root.add(beverageBox, 1, 0);
         
         ComboBox<String> appetizerBox = new ComboBox<>();
-        appetizerBox.setPrefWidth(120);
+        appetizerBox.setPrefWidth(150);
         appetizerBox.getItems().addAll("Soup", "Salad", "Spring Rolls", "Garlic Bread", "Chips and Salsa");
         root.add(appetizerBox, 1, 1);
         
         ComboBox<String> mainCourseBox = new ComboBox<>();
-        mainCourseBox.setPrefWidth(120);
+        mainCourseBox.setPrefWidth(150);
         mainCourseBox.getItems().addAll("Steak", "Grilled Chicken", "Chicken Alfredo", "Turkey Club", "Shrimp Scampi", "Pasta", "Fish and Chips");
         root.add(mainCourseBox, 1, 2);
         
         ComboBox<String> dessertBox = new ComboBox<>();
-        dessertBox.setPrefWidth(120);
+        dessertBox.setPrefWidth(150);
         dessertBox.getItems().addAll("Apple Pie", "Carrot Cake", "Mud Pie", "Pudding", "Apple Crisp");
         root.add(dessertBox, 1, 3);
         
